@@ -1,0 +1,42 @@
+.Conteiner{
+    display: flex;
+    gap: 10em;
+    padding: 5px;
+    justify-content: center;
+}
+
+.Search{
+    background:rgba(48, 1, 1, 0.5);
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    /* padding: 5px; */
+    font-size: 12px;
+}
+
+.Filters{
+    background:rgb(134, 0, 0,0.5);
+    display: flex;
+    gap: 5em;
+    justify-content:flex-start;
+    border-radius: 5px;
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.Sorts{
+    background: rgb(23, 46, 0,0.5);
+    display: flex;
+    gap: 5em;
+    border-radius: 10px;
+    border: 1px solid green;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-size: 12px;
+}

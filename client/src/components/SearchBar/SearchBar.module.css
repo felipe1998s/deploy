@@ -1,0 +1,16 @@
+.ConteinerSearch{
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+    width: fit-content;
+}
+.ConteinerSearch>input{
+    border-radius: 10px 0 0 10px;
+    padding: 5px;
+}
+.ConteinerSearch > button {
+    border-radius: 0 10px 10px 0;
+    background: rgb(0, 28, 184);
+    color: white;
+    padding: 5px;
+}

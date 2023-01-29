@@ -1,0 +1,155 @@
+.Conteiner{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    background-image:url("https://images8.alphacoders.com/548/548142.jpg");
+    background-position: center;
+    height: min-content;
+}
+.btnPrimary {
+    background-color: #FFCB05;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 20px;
+}
+   
+.btnPrimary:hover {
+    background-color: #fff;
+}
+   
+.btnPrimary:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+
+   
+@media (min-width: 768px) {
+    .btnPrimary {
+    min-width: 120px;
+    padding: 0 25px;
+    }
+   }   
+ 
+label {
+    font-size: 1.5rem;
+}
+ 
+.boxForm {
+    /* background-color:orange; */
+    background: rgba(56, 23, 1, 0.9);
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 1rem;
+    height: fit-content;
+    width: fit-content;
+    /* justify-content: center; */
+    color:whitesmoke;
+    border: 3px solid white;
+}
+ 
+.boxForm > form  {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1em;
+   width: 35rem;
+   /* border: 1px solid black; */
+   flex-direction:initial;
+   justify-content:initial;
+   margin: 0px;
+   /* background-color: red; */
+}
+.boxForm > form select {
+   border: 1px solid #422800;
+   color: #422800;
+   font-weight: 600;
+   font-size: 18px;
+   text-align: center;
+   padding: 0.5rem 1rem;
+   outline: 0;
+   cursor: pointer;
+   background-color: #f9f9f9;
+   flex-grow: 1;
+   background-color: green;
+   border: 2px solid black;
+}
+.boxForm > form > div {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.boxForm > form > div > input:not([type="submit"])  {
+    outline: 0;
+    border: 2px solid #FFCB05;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0;
+    border-radius: 10px;
+}
+.boxForm > form > div > p  {
+    color: rgb(185, 0, 0);
+font-size: 1rem;
+}
+
+.boxTypesFather {
+    border: 2px solid white;
+    color: #fff;
+    background: rgba(1, 14, 49, 0.9);
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    height: fit-content;
+    width: fit-content;
+    min-height: 15rem;
+    min-width: 15rem;
+}
+ 
+
+.boxTypesFather h3{
+   font-size: 1rem;
+   margin: 0;
+   margin-bottom: 1rem;
+} 
+.types {
+     display: flex;
+     font-size: 1rem;
+     gap: 30px;
+     padding: 0.5rem 0;
+     justify-content: space-between;
+}
+ 
+.types button{
+   background-color: rgb(255, 64, 64);
+   color: #ffffff;
+   cursor: pointer;
+   font-weight: 600;
+}
+ 
+.boxTypes {
+   display: flex;
+   flex-direction: column;
+} 
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 13px;
+}

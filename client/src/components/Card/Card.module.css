@@ -1,0 +1,65 @@
+.Container{
+    /* width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: brown;
+    color: orange; */
+    height: 200px;
+    width: 310px;
+    background: rgb(0, 1, 66,0.5);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin: 7px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+
+}
+
+@import url('https://fonts.cdnfonts.com/css/crosswinds');
+
+.Container > div > h1{
+
+    /* background-color:brown; */
+    color: white;
+    font-size: large;
+    font-family: 'Crosswinds', sans-serif;
+                                                
+}
+
+.img{
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+    width: 175px;
+    height: 175px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content:first baseline;
+}
+
+.labelTypes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    color: antiquewhite;
+    justify-content: center;
+    
+}
+
+.labelTypes > h3 {
+    background-color:rgb(226, 126, 12);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5px;
+}

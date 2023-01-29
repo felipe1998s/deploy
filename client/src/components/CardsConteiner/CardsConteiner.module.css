@@ -1,0 +1,42 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    border-radius: 15px;
+    border: 3px solid white;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    margin: 0%;
+    justify-content: center;
+    background-image:url("https://p4.wallpaperbetter.com/wallpaper/35/590/370/pokemon-pictures-for-desktop-wallpaper-preview.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+}
+
+.Container > NotFoundPokemons {
+    background-color: black;
+}
+
+.Paginated{
+    border: 1px solid yellow;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 12px;
+    color: aliceblue;
+}
+.Paginated > button {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+}
+.Paginated > span {
+    border: 1px solid black;
+    background-color: blue;
+    padding: 5px;
+}

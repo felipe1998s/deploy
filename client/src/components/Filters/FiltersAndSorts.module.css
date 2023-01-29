@@ -1,0 +1,35 @@
+.ConteinerFilterBySource{
+    justify-content: center;
+}
+
+.ConteinerFilterBySource > select{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ConteinerFilterByType{
+    justify-content: center;
+}
+
+.ConteinerFilterByType > select {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ConteinerSortByAlphabet{
+    justify-content: center;
+}
+
+.ConteinerSortByAlphabet > select{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ConteinerSortByHP{
+    justify-content: center;
+}
+
+.ConteinerSortByHP > select {
+    border-radius: 10px;
+    padding: 5px;
+}

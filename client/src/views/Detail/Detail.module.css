@@ -1,0 +1,12 @@
+.Conteiner{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.DetailCard {
+    display: flex;
+    justify-content: center;
+}

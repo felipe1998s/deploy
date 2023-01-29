@@ -1,0 +1,19 @@
+{
+    "result.url": {
+
+        "id" : "id",
+        "name" : "name",
+        "life" : "stats[0].stat.name",
+        "attack" : "stats[1].stat.name",
+        "defense" : "stats[2].stat.defense",
+        "speed" : "stats[5].stat.speed",
+        "height" : "height",
+        "weight" : "weight",
+        "image" : "sprites.other.dream_world.front_default"
+    },
+
+    "result.url.Types" :{
+        "id" : "...",
+        "name" : "types.type.name" 
+    }
+}
