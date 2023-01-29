@@ -11,7 +11,7 @@ export const SORT_BY_AlPHABET = "SORT_BY_AlPHABET";
 
 export const getPokemons = () =>{
     return async function(dispatch){
-        const serverData = await axios.get("http://localhost:3001/pokemons");
+        const serverData = await axios.get("/pokemons");
         const pokemons = serverData.data;
         console.log(pokemons);
         dispatch({type:GET_POKEMONS,payload:pokemons});
@@ -20,7 +20,7 @@ export const getPokemons = () =>{
 
 export const getPokemonById = (id) => {
     return async function(dispatch){
-        const serverData = await axios.get(`http://localhost:3001/pokemons/${id}`);
+        const serverData = await axios.get(`/pokemons/${id}`);
         const pokemonDetails = serverData.data;
         dispatch({type:GET_POKEMON_BY_ID,payload:pokemonDetails});
     }
@@ -29,7 +29,7 @@ export const getPokemonById = (id) => {
 export const getPokemonByName = (name) =>{
         name = name.toLowerCase();
         return async function(dispatch){
-            await axios.get(`http://localhost:3001/pokemons?name=${name}`)
+            await axios.get(`/pokemons?name=${name}`)
             .then((response)=>{
                 const pokemon = response.data;
                 dispatch({type:GET_POKEMON_BY_NAME,payload:pokemon});
@@ -45,7 +45,7 @@ export const getPokemonByName = (name) =>{
 
 export const getPokemonTypes = () =>{
     return async function(dispatch){
-        const serverData = await axios.get("http://localhost:3001/types");
+        const serverData = await axios.get("/types");
         const types = serverData.data;
         dispatch({type:GET_POKEMON_TYPES,payload:types});
     }

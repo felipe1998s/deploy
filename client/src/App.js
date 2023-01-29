@@ -3,6 +3,8 @@ import {Landing,Home,Form,Detail} from './views';
 import { BrowserRouter as Router, Route, Switch, useLocation} from 'react-router-dom';
 // import NavBar from './components/NavBar/NavBar';
 import NotFound from './views/NotFound/NotFound';
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3001";
 
 //Henry Pokemon
 function App() {
