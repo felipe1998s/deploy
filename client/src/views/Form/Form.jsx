@@ -88,7 +88,7 @@ const Form = () =>{
             return alert("¡Debe completar todos los datos!");
         }
         else{
-            axios.post("http://localhost:3001/pokemons",{...form,types:[...arr]})
+            axios.post("/pokemons",{...form,types:[...arr]})
             .then(res=>alert("Creando pokemon",res));
 
             setForm({
