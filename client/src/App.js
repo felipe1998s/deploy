@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch, useLocation} from 'react-router
 import NotFound from './views/NotFound/NotFound';
 import axios from "axios";
 // axios.defaults.baseURL = "http://localhost:3001";
-axios.defaults.baseURL = "deploy-production-4074.up.railway.app";
+axios.defaults.baseURL = "https://deploy-production-4074.up.railway.app/";
 //Henry Pokemon
 function App() {
 
